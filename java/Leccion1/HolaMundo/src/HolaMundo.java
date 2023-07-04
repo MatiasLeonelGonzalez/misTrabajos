@@ -33,7 +33,7 @@ public class HolaMundo {
         var union = titulo + " " + usuario;
         System.out.println("union = " + union);
          */
-        /*var a = 8;
+ /*var a = 8;
         var b = 4;
         System.out.println(a + b);
         //Ejercicio: caracteres especiales con java
@@ -45,7 +45,7 @@ public class HolaMundo {
         System.out.println("Retroseso: \b\b"+ nombre); //caracter de retroseso
         System.out.println("Comillas simples: \'"+nombre+"\'"); //comillas simples
         System.out.println("Comillas dobles: \""+nombre+"\""); //comillas dobles
-        */
+         */
         //clase Scanner
         /*Scanner entrada = new Scanner(System.in);
         System.out.println("digite su nombre: ");
@@ -54,9 +54,8 @@ public class HolaMundo {
         System.out.println("Escriba el titulo: ");
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+" "+usuario2);
-        */
+         */
         //clase 4 3.2
-        
         /*byte numEnteroByte = 127;
         System.out.println("numEnteroByte = " + numEnteroByte);
         System.out.println("valor minimo del byte: "+ Byte.MIN_VALUE);
@@ -76,30 +75,21 @@ public class HolaMundo {
         System.out.println("numEnteroLong = " + numEnteroLong);
         System.out.println("Valor minimo del long: "+Long.MIN_VALUE);
         System.out.println("Valor maximo del long: "+Long.MAX_VALUE);
-        */
-        
+         */
         // CLASE 4 3.3
-        
         float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
-        System.out.println("El valor minimo del float: "+Float.MIN_VALUE);
-        System.out.println("El valor maximo del float: "+Float.MAX_VALUE);
-        
+        System.out.println("El valor minimo del float: " + Float.MIN_VALUE);
+        System.out.println("El valor maximo del float: " + Float.MAX_VALUE);
+
         double numDouble = 1.7976931348623157E308D;
         System.out.println("numDouble = " + numDouble);
-        System.out.println("El valor minimo del Double: "+Double.MIN_VALUE);
-        System.out.println("El valor maximo del Double: "+Double.MAX_VALUE);
+        System.out.println("El valor minimo del Double: " + Double.MIN_VALUE);
+        System.out.println("El valor maximo del Double: " + Double.MAX_VALUE);
+        
+        //CLASE 5 
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-      
         
 
     }
