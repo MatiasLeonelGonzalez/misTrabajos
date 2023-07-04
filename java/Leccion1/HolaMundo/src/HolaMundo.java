@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class HolaMundo {
 
     public static void main(String[] args) {
+
+
         /*System.out.println("Hola Mundo desde java");
         
         int miVariable = 10;
@@ -18,7 +20,6 @@ public class HolaMundo {
         miVariableCadena = "sigamos creciendo en programacion";
         System.out.println(miVariableCadena);
          */
-
         //Var - inferencia de tipo en java
         /* var miVariableEntera2 = 10;
         var miVariableCadena2 = "seguimos estudiando";
@@ -77,7 +78,7 @@ public class HolaMundo {
         System.out.println("Valor maximo del long: "+Long.MAX_VALUE);
          */
         // CLASE 4 3.3
-        float numFloat = 3.4028235E38F;
+        /* float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
         System.out.println("El valor minimo del float: " + Float.MIN_VALUE);
         System.out.println("El valor maximo del float: " + Float.MAX_VALUE);
@@ -86,11 +87,64 @@ public class HolaMundo {
         System.out.println("numDouble = " + numDouble);
         System.out.println("El valor minimo del Double: " + Double.MIN_VALUE);
         System.out.println("El valor maximo del Double: " + Double.MAX_VALUE);
+         */
+        //CLASE 5 5.1
+        //interferencia de tipos var y tipos primitivos
+        /*var numEntero = 20; //las literales sin punto automaticamente son te tipo int
+        System.out.println("numEntero = " + numEntero);
+        var numFloat =10.0F;//autoimaticamente con el punto se transforma en tipo double
+        System.out.println("numFloat = " + numFloat);
+        var numDouble = 10.0; 
+        System.out.println("numDouble = " + numDouble);
+         */
+        //tipos primitivos 5.2
+        /*
+        char miVariableChar = 'a';
+        System.out.println("miVariableChar = " + miVariableChar);
+
+        char varCaracter = '\u0024';    //indicamos a java la asignacion con el codigo unicode
+        System.out.println("varCaracter = " + varCaracter);
+        char varCaracterDecimal = 36; //vaor decimal del juego de caracters unicode
+        System.out.println("varCaracterDecimal = " + varCaracterDecimal);
+        char varCaracterSimbolo = '$'; //un caracter especial,podemos opiar y pegar desde unicode.
+        System.out.println("varCaracterSimbolo = " + varCaracterSimbolo);
         
-        //CLASE 5 
+        var varCaracter1 = '\u0024';    //indicamos a java la asignacion con el codigo unicode
+        System.out.println("varCaracter1 = " + varCaracter1);
+        var varCaracterDecimal1 = (char)36; //vaor entero y le asigna un tipo int
+        System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1);
+        var varCaracterSimbolo1 = '$'; //un caracter especial,podemos opiar y pegar desde unicode.
+        System.out.println("varCaracterSimbolo1 = " + varCaracterSimbolo1);
         
         
-        
+        int varEnteroChar = '$';
+        System.out.println("varEnteroChar = " + varEnteroChar);
+        int caracterChar = 'g'; // 103 le corresponde a la letra g en unicode.
+        System.out.println("caracterChar = " + caracterChar);
+         */
+        //clase 6 
+        //conversiond e tipos primitivos
+//        var edad = Integer.parseInt("20");
+//        System.out.println("edad = " + (edad + 1));
+//        var valorPi = Double.parseDouble("3.1216");
+//        System.out.println("valorPi = " + valorPi);
+
+        //pedir un valor 
+        var entrada = new Scanner(System.in);
+//        System.out.println("Digite su edad");
+//        edad = Integer.parseInt(entrada.nextLine());
+//        System.out.println("edad = " + edad);
+
+        //conversion de tipos primitivos en java Parte 2
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+
+        var fraseChar = "programadores".charAt(0);
+        System.out.println("fraseChar = " + fraseChar);
+
+        System.out.println("Digite un caracter: ");
+        fraseChar = entrada.nextLine().charAt(0);
+        System.out.println("fraseChar = " + fraseChar);
 
     }
 }
